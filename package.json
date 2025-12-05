@@ -1,0 +1,20 @@
+{
+  "name": "web-b-n-h-ng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kien04034/WEB-b-n-h-ng.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kien04034/WEB-b-n-h-ng/issues"
+  },
+  "homepage": "https://github.com/kien04034/WEB-b-n-h-ng#readme"
+}
