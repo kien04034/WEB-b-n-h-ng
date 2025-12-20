@@ -1,4 +1,3 @@
-import p_img1 from './p_img1.png'
 import p_img2_1 from './p_img2_1.png'
 import p_img2_2 from './p_img2_2.png'
 import p_img2_3 from './p_img2_3.png'
@@ -21,12 +20,10 @@ import p_img17 from './p_img17.png'
 import p_img18 from './p_img18.png'
 import p_img19 from './p_img19.png'
 import p_img20 from './p_img20.png'
-import p_img21 from './p_img21.png'
 import p_img22 from './p_img22.png'
 import p_img23 from './p_img23.png'
 import p_img24 from './p_img24.png'
 import p_img25 from './p_img25.png'
-import p_img26 from './p_img26.png'
 import p_img27 from './p_img27.png'
 import p_img28 from './p_img28.png'
 import p_img29 from './p_img29.png'
@@ -35,8 +32,6 @@ import p_img31 from './p_img31.png'
 import p_img32 from './p_img32.png'
 import p_img33 from './p_img33.png'
 import p_img34 from './p_img34.png'
-import p_img35 from './p_img35.png'
-import p_img36 from './p_img36.png'
 import p_img37 from './p_img37.png'
 import p_img38 from './p_img38.png'
 import p_img39 from './p_img39.png'
@@ -44,19 +39,18 @@ import p_img40 from './p_img40.png'
 import p_img41 from './p_img41.png'
 import p_img42 from './p_img42.png'
 import p_img43 from './p_img43.png'
-import p_img44 from './p_img44.png'
 import p_img45 from './p_img45.png'
 import p_img46 from './p_img46.png'
 import p_img47 from './p_img47.png'
 import p_img48 from './p_img48.png'
 import p_img49 from './p_img49.png'
 import p_img50 from './p_img50.png'
-import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
 
 
-import logo from './logo.png'
+import logo from './logo.jpg'
 import hero_img from './hero_img.png'
+import hero_img_2 from './hero_img-2.jpg'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
@@ -92,25 +86,14 @@ export const assets = {
     contact_img,
     razorpay_logo,
     stripe_logo,
-    cross_icon
+    cross_icon,
+    hero_img_2
 }
 
 export const products = [
     {
-        _id: "aaaaa",
-        name: "Bọc Vợt Pickleball",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img1],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716634345448,
-        bestseller: true
-    },
-    {
         _id: "aaaab",
-        name: "Áo Joola Pickleball",
+        name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 200,
         image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
@@ -122,11 +105,11 @@ export const products = [
     },
     {
         _id: "aaaac",
-        name: "Áo Proton Pickleball",
+        name: "Girls Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 220,
         image: [p_img3],
-        category: "Men",
+        category: "Kids",
         subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
         date: 1716234545448,
@@ -134,7 +117,7 @@ export const products = [
     },
     {
         _id: "aaaad",
-        name: "Kính Pickleball",
+        name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 110,
         image: [p_img4],
@@ -146,11 +129,11 @@ export const products = [
     },
     {
         _id: "aaaae",
-        name: "Mũ Nam Joola Pickleball",
+        name: "Women Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 130,
         image: [p_img5],
-        category: "Men",
+        category: "Women",
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
         date: 1716622345448,
@@ -158,11 +141,11 @@ export const products = [
     },
     {
         _id: "aaaaf",
-        name: "Mũ Nam Proton Pickleball",
+        name: "Girls Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 140,
         image: [p_img6],
-        category: "Men",
+        category: "Kids",
         subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
         date: 1716623423448,
@@ -170,7 +153,7 @@ export const products = [
     },
     {
         _id: "aaaag",
-        name: "Mũ Nữ Joola Pickleball",
+        name: "Men Tapered Fit Flat-Front Trousers",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 190,
         image: [p_img7],
@@ -182,7 +165,7 @@ export const products = [
     },
     {
         _id: "aaaah",
-        name: "Chì Pickleball",
+        name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 140,
         image: [p_img8],
@@ -194,7 +177,7 @@ export const products = [
     },
     {
         _id: "aaaai",
-        name: "Móc Khóa Pickelball",
+        name: "Girls Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 100,
         image: [p_img9],
@@ -206,7 +189,7 @@ export const products = [
     },
     {
         _id: "aaaaj",
-        name: "Băng Chặn Mồ Hôi Tay",
+        name: "Men Tapered Fit Flat-Front Trousers",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 110,
         image: [p_img10],
@@ -218,7 +201,7 @@ export const products = [
     },
     {
         _id: "aaaak",
-        name: "Bóng Pickleball 40 Lỗ",
+        name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 120,
         image: [p_img11],
@@ -230,7 +213,7 @@ export const products = [
     },
     {
         _id: "aaaal",
-        name: "Bóng Pickleball 26 Lỗ",
+        name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 150,
         image: [p_img12],
@@ -242,7 +225,7 @@ export const products = [
     },
     {
         _id: "aaaam",
-        name: "Bóng Đấu Pickleball",
+        name: "Women Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 130,
         image: [p_img13],
@@ -337,18 +320,6 @@ export const products = [
         bestseller: false
     },
     {
-        _id: "aaaau",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img21],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716634345448,
-        bestseller: false
-    },
-    {
         _id: "aaaav",
         name: "Women Palazzo Pants with Waist Belt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
@@ -394,18 +365,6 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716638745448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaz",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img26],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716639845448,
         bestseller: false
     },
     {
@@ -505,30 +464,6 @@ export const products = [
         bestseller: false
     },
     {
-        _id: "aaabi",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img35],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716649745448,
-        bestseller: false
-    },
-    {
-        _id: "aaabj",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img36],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716650845448,
-        bestseller: false
-    },
-    {
         _id: "aaabk",
         name: "Women Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
@@ -613,18 +548,6 @@ export const products = [
         bestseller: false
     },
     {
-        _id: "aaabr",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img44],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716659645448,
-        bestseller: false
-    },
-    {
         _id: "aaabs",
         name: "Men Slim Fit Relaxed Denim Jacket",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
@@ -694,18 +617,6 @@ export const products = [
         subCategory: "Bottomwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716666245448, bestseller: false
-    },
-    {
-        _id: "aaaby",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img51],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716667345448,
-        bestseller: false
     },
     {
         _id: "aaabz",
