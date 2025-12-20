@@ -9,7 +9,7 @@ const Footer = () => {
                 <div>
                     <Link to='/'><img className="mb-5 w-32" src={assets.logo} alt="Forever" /></Link>
                     <p className="w-full md:w-2/3 text-gray-600">
-                        Shop Phụ Kiện Pickleball
+                        Our trusted destination for quality finds that last. Explore our curated selection of durable and dependable products designed for lasting value. Shop with confidence knowing you're investing in items built to endure.
                     </p>
                 </div>
                 <div>
@@ -24,14 +24,15 @@ const Footer = () => {
                 <div>
                     <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
                     <ul className="flex flex-col gap-1 text-gray-600">
-                        <li>0866037682</li>
-                        <li>nguyenkientk123@gmail.com</li>
+                        <li>+123456789</li>
+                        <li>contact@</li>
                         <li>Instagram</li>
                     </ul>
                 </div>
             </div>
             <div>
-
+                <hr className="border-gray-300" />
+                <p className="py-5 text-center text-sm">Copyright {new Date().getFullYear()} @ - All Right Reserved.</p>
             </div>
         </div>
     );
